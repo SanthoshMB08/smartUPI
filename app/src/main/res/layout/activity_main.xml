@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/upi_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logged in as: "
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/transaction_history_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction History" />
+
+    <Button
+        android:id="@+id/pay_now_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay Now" />
+
+    <Button
+        android:id="@+id/check_balance_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Balance" />
+
+
+    <Button
+        android:id="@+id/logout_button"
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
