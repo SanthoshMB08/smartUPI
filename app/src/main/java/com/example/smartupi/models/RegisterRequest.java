@@ -5,11 +5,11 @@ public class RegisterRequest {
     private String upi_id;
     private String password;
     private String upi_pin;
-    public RegisterRequest(String number, String upiId, String password, String upiPin) {
-        this.mobile = number;
-        this.upi_id = upiId;
+    public RegisterRequest(String mobile, String upi_id, String password, String upi_pin) {
+        this.mobile = mobile;
+        this.upi_id = upi_id;
         this.password = password;
-        this.upi_pin = upiPin;
+        this.upi_pin = upi_pin;
 
     }
 }
