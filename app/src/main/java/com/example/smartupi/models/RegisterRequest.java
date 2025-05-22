@@ -1,15 +1,15 @@
 package com.example.smartupi.models;
 
 public class RegisterRequest {
-    private String number;
-    private String upiId;
+    private String mobile;
+    private String upi_id;
     private String password;
-    private String upiPin;
+    private String upi_pin;
     public RegisterRequest(String number, String upiId, String password, String upiPin) {
-        this.number = number;
-        this.upiId = upiId;
+        this.mobile = number;
+        this.upi_id = upiId;
         this.password = password;
-        this.upiPin = upiPin;
+        this.upi_pin = upiPin;
 
     }
 }
