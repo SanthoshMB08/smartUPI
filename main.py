@@ -52,7 +52,7 @@ def register(user: UserRegister, db: Session = Depends(get_db)):
     )
     db.add(db_user)
     db.commit()
-    return {"message": "User registered"}
+    return {"success": True,"message": "User registered"}
 
 # Login User
 @app.post("/login")
