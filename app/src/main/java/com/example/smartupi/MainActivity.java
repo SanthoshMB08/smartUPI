@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         SessionManager sessionManager = new SessionManager(this);
         String upiId = sessionManager.getUpiId();
+        boolean islogin=sessionManager.isLoggedIn();
 
 
         super.onCreate(savedInstanceState);

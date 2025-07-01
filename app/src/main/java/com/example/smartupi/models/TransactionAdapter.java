@@ -25,7 +25,6 @@ public class TransactionAdapter extends ArrayAdapter<TransactionItem> {
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.transaction_item, parent, false);
         }
-
         TextView fromToView = convertView.findViewById(R.id.from_to);
         TextView amountView = convertView.findViewById(R.id.amount);
         TextView timeView = convertView.findViewById(R.id.time);

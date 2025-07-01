@@ -56,7 +56,7 @@ NetworkUtils networkUtils=new NetworkUtils();
             double amount = Double.parseDouble(amountField.getText().toString());
             String pin = pinField.getText().toString();
             boolean connected = networkUtils.isConnected(this);
-            Log.d("NetCheck", "Connected: " + connected);
+            Log.d("NetCheck -1 ", "Connected: " + connected);
             if (networkUtils.isConnected(this))
             {
                 PaymentRequest request = new PaymentRequest(upiId, toUpi, amount, pin);
